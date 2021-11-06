@@ -1,0 +1,7 @@
+.container
+	.row
+		.col-md-10.mx-auto
+			=link_to "Back",articles_path,class:"nav-link"
+			%h1=@article.hidline
+			%p=@article.content
+			%p=@article.created_at
