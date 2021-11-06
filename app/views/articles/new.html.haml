@@ -1,6 +1,9 @@
 .container
 	.row
 		.col-md-8.mx-auto
+			%br
+			%br
+			%h2.text-center.text-primary New Article
 			=form_for @article do |f|
 				%h3= f.label :Hidline 
 				%p= f.text_field :hidline,class:"form-group form-control"
